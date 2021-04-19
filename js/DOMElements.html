@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Appending Elements with fun lyrics</title>
+</head>
+<body>
+    <h1>Funky Town</h1>
+    
+    <p id="para1"></p>
+
+    <div id="div">
+        <p> won't you take me to</p>
+    </div>
+
+    <script>
+        var txt="";
+
+        var myDiv=document.getElementById("div");
+
+        var para=document.createElement("p");
+
+        var node=document.createTextNode("(wait for it)");
+        para.append(node);
+
+        var strong=document.createElement("strong");
+        node=document.createTextNode("FUNKY TOOOWWWWNNNN");
+
+        strong.appendChild(node);
+
+
+        myDiv.append(para,strong, " (thankyou)");
+
+        /*
+        var children=myDiv.childNodes;
+        for (var i=0; i<children.length; i++) {
+            txt= txt + i + ". " + children[i].nodeName + "<br>";
+        }
+
+        document.getElementById("para1").innerHTML = txt;
+        */
+    </script>
+</body>
+</html>

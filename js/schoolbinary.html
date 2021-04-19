@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Matt Will Hunting</title>
+    <script src = 'grade Average'></script>
+</head>
+<body>
+    <h1>Good Will America</h1>
+
+    <p id = 'para1'> </p>
+    <p id = 'para2'> </p>
+
+    <script>
+        let person=
+        {
+            fname:"Matt ", lname:"Damon", math: 100, english: 23, compSci: 40, result: 0,
+            fullName: function() {
+                return this.fname+ this.lname
+            },
+            calculateAverage: function() {
+                this.result = (this.math+ this.english+ this.compSci)/3
+                return this.fullName();
+            }
+        }
+
+        document.getElementById('para1').innerHTML=person.calculateAverage();
+        document.getElementById('para2').innerHTML=person.result;
+    </script>
+</body>
+</html>

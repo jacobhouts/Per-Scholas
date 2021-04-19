@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is a webpage.</title>
+</head>
+<body>
+    <body>
+        <p id=”para1”> best monkeys (in order)</p>
+        
+        <p id=”para2”> </p>
+        <div class= "myDiv">emperor tamarin</div>
+        <div class= "myDiv">macaque</div>
+        <div class= "myDiv">dusky leaf monkey</div>
+        <script>
+            document.getElementById("para1").innerHTML= "My Paragraph";
+            document.getElementById("para2").textConent= "My Second paragraph";
+            var array=document.getElementsByClassName("myDiv");
+            array[0].innerHTML="Davy Jones";
+
+
+        </script>
+        
+        
+</body>
+</html>
+<script>
+/*Change content of p1 using innerHTML property
+Add content for p2 using textContent
+Creat at lease 3 <div> with the same classnames and 
+try to access them using the getElementByClassNames property and store in the array
+Display the last element from the above array
+*/</script>
