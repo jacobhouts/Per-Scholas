@@ -1,5 +1,4 @@
-//This program helps you find the Free parking days based on House Number. 
-// It also defines your Neighborhood based on your zip.
+//finding a practice space near you for your instrument of choice
 
 let practiceSpace = "923 julie ln" 
 let fZip = "33813-123" 
