@@ -1,0 +1,152 @@
+.container {
+    display: flex;
+  }
+  
+  .grid-user {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blue;
+    margin: 20px;
+  }
+  
+  .grid div {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .grid-computer {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightgreen;
+    margin: 20px;
+  }
+  
+  .grid-display {
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    background-color: yellow;
+  }
+  
+  .sloop-container {
+    width: 80px;
+    height: 40px;
+    background-color: orange;
+    margin: 10px;
+    display: flex;
+  }
+  .sloop-container-vertical {
+    width: 40px;
+    height: 80px;
+    background-color: orange;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .schooner-container {
+    width: 120px;
+    height: 40px;
+    background-color: pink;
+    margin: 10px;
+    display: flex;
+  }
+  
+  .schooner-container-vertical {
+    width: 40px;
+    height: 120px;
+    background-color: pink;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .brigantine-container {
+    width: 120px;
+    height: 40px;
+    background-color: purple;
+    margin: 10px;
+    display: flex;
+  }
+  
+  .brigantine-container-vertical {
+    width: 40px;
+    height: 120px;
+    background-color: purple;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .galleon-container {
+    width: 160px;
+    height: 40px;
+    background-color: aqua;
+    margin: 10px;
+    display: flex;
+  }
+  
+  .galleon-container-vertical {
+    width: 40px;
+    height: 160px;
+    background-color: aqua;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  
+  .fleut-container {
+    width: 200px;
+    height: 40px;
+    background-color: green;
+    margin: 10px;
+    display: flex;
+  }
+  
+  .fleut-container-vertical {
+    width: 40px;
+    height: 200px;
+    background-color: green;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  
+  .ship div {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .sloop {
+    background-color: orange;
+  }
+  
+  .schooner {
+    background-color: pink;
+  }
+  
+  .brigantine {
+    background-color: purple;
+  }
+  
+  .galleon {
+    background-color: aqua;
+  }
+  
+  .fleut {
+    background-color: green;
+  }
+  
+  .boom {
+    background-color: red;
+  }
+  
+  .miss {
+     background-color: black;
+  }
